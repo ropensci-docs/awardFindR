@@ -1,0 +1,10 @@
+pandoc: 2.16.2
+pkgdown: 2.0.5
+pkgdown_sha: ~
+articles:
+  awardFindR: awardFindR.html
+last_built: 2022-07-09T05:14Z
+urls:
+  reference: https://docs.ropensci.org/awardFindR/reference
+  article: https://docs.ropensci.org/awardFindR/articles
+

@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "2c86e2dc10507d3c6ea04a91e7914fb8bd86b134",
+    "author": "mccallc <26819445+mccallc@users.noreply.github.com>",
+    "time": "2022-03-11 14:43:02",
+    "files": 17,
+    "merge": false,
+    "message": "fixing tests\n"
+  },
+  "repo": "https://github.com/ropensci/awardFindR",
+  "pkg": "awardFindR"
+}
