@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "373e455bf3e20754ad98bf9d512aefd9e4e839e7",
+    "author": "Isaac Slaughter <isaac.slaughter@gmail.com>",
+    "time": "2024-03-23 02:34:04",
+    "files": 19,
+    "merge": false,
+    "message": "Update nih, usaspend, ophil, mellon (#42)\n\n* Update NIH API version to V2\r\n\r\n* Merge grants with identical IDs\r\n\r\n* Update ophil ID selector\r\n\r\n* Update to GraphQL API\r\n\r\n* Ensure NSF results have identical fields\r\n\r\n* Raise warning in usaspending if dates not available\r\n\r\n* Add delay between requests to Mellon\r\n\r\n* Update filtering syntax for NIH v2 API\r\n\r\n* Require exact match in NSF search\r\n\r\n* Ensure NSF results have identical fields\r\n\r\n* ensure we have all records for each usaspend ID\r\n\r\n* Add 'stats' bindings for na.pass\r\n\r\n* Test installing covr w/ install.packages\r\n\r\n* Update looping test for new NIH search\r\n\r\n* Add libcurl4-openssl-dev\r\n\r\n* Add looping to carnegie"
+  },
+  "repo": "https://github.com/ropensci/awardFindR",
+  "pkg": "awardFindR"
+}
