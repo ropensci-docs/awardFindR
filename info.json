@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "c8f0d6e51d1ecef5ebea8c6735606a8ffd0623b3",
+    "author": "Nic <nmweber@uw.edu>",
+    "time": "2026-04-19T20:12:30Z",
+    "files": 24,
+    "merge": false,
+    "message": "Update multiple data sources, fix R CMD check failures (#50)\n\n* Update action versions\n\n* Update NSF/NIH dates to include more results\n\n* Add warning if arnold has maxed out\n\n* Add paging for gates\n\n* Add paging for osociety\n\n* Return complete PIs/institution list for RSF\n\n* Update macarthur to redesign API\n\n* Fix return value names in RSF\n\n* Only record new episodes for macarthur/osociety VCRs\n\n* fix build failure issue\n\nThree changes made: 1) R/macarthur.R:7-10 — Example wrapped in \\dontrun{}, so it won't execute during R CMD check; 2)\nR/macarthur.R:25-27 — Added inherits(response, \"xml_document\") check so a 404 returns NULL gracefully instead of crashing in fromJSON(); 3) man/get_macarthur.Rd — Regenerated with \\dontrun{} wrapper\nman/get_macarthur.Rd — Regenerated with \\dontrun{} wrappe\n\n* Fix review issues: macarthur hex decoding, nsf rbind columns, rsf sibling traversal, osociety pagination\n\n* Fix all test failures and warnings across sources\n\n---------\n\nCo-authored-by: isaac <isaac.slaughter@gmail.com>"
+  },
+  "repo": "https://github.com/ropensci/awardFindR",
+  "pkg": "awardFindR",
+  "time": "2026-08-30T07:26:44Z"
+}
